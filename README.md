@@ -27,6 +27,8 @@ How To Use
 https://jin-dev.vercel.app/
 
 
+https://github.com/J-Rentsendorj/Portfolio-R3F/assets/99370192/5b106583-580c-4a88-85f8-ebbe50098e22
 
-https://github.com/J-Rentsendorj/Portfolio-R3F/assets/99370192/580be089-68eb-4e27-b03a-ddeba0387b17
+
+
 
