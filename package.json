@@ -1,0 +1,27 @@
+{
+  "name": "jin-dev-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "3.0",
+    "depcheck": "^1.4.3",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.50.3",
+    "@react-three/fiber": "^8.9.2",
+    "gltfjsx": "^6.1.4",
+    "leva": "^0.9.34",
+    "react": "18.2",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "18.2",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^6.11.2",
+    "three": "^0.148.0"
+  }
+}

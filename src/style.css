@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+html,
+body,
+#root {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(20, 20, 20);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Main Page */
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(20, 20, 20);
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.1);
+    z-index: 0;
+    transition: background 0.5s ease;
+}
+
+.mute-button {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    z-index: 5;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mute-button img {
+    width: 40px;
+}
+
+.scroll {
+    position: absolute;
+    bottom: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #ffffff;
+}
+
+.content {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 380px;
+    z-index: 1;
+}
+
+.experience-container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.experience-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s;
+    z-index: 3;
+    color: #ffffff;
+}
+
+.explore-button {
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    bottom: -369px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    pointer-events: auto;
+    width: 200px;
+}
+
+.explore-button:hover {
+    background-color: rgba(20, 20, 20);
+}
+
+.experience-scroll {
+    position: absolute;
+    bottom: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: #ffffff;
+}
+
+.project-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+    box-sizing: border-box;
+    background: rgba(20, 20, 20);
+    color: #fff;
+}
+
+.project-title {
+    font-size: 2em;
+}
+
+.project-description {
+    max-width: 750px;
+    text-align: center;
+}
+
+.video-container {
+    width: 80%;
+    max-width: 950px;
+}
+
+.project-video {
+    width: 100%;
+}
+
+.top-icons,
+.bottom-icons {
+    position: absolute;
+    left: 50%;
+    display: flex;
+    gap: 10px;
+    transform: translateX(-50%);
+    z-index: 5;
+
+}
+
+.top-icons a,
+.bottom-icons a {
+    color: #ffffff;
+}
+
+.top-icons {
+    top: 15px;
+}
+
+.bottom-icons {
+    bottom: -1815px;
+}
+
+.credit {
+    position: absolute;
+    bottom: -1880px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: #ffffff;
+}
+
+/* Pacman */
+
+.custom-button:hover {
+    color: yellow;
+}
+
+.custom-button {
+    font-family: 'Press Start 2P';
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: transparent;
+    color: white;
+    z-index: 1000;
+    color: #E17C0B;
+    cursor: pointer;
+    border: none;
+}
+
+.custom-text {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    z-index: 1000;
+    width: calc(100% - -377px);
+    color: #E17C0B;
+}
+
+.github-link {
+    position: absolute;
+    bottom: 430px;
+    left: 190px;
+    color: #E17C0B;
+}
+
+.github-link:hover {
+    color: yellow;
+}
+
+@media (max-width: 800px) {
+
+    html,
+    body,
+    #root {
+        overflow-x: hidden;
+    }
+
+    /* MainPage */
+
+    .mute-button {
+        right: 20px;
+        top: 10px;
+    }
+
+    .top-icons {
+        top: 15spx;
+    }
+
+    .text-content {
+        width: 350px;
+        font-size: small;
+    }
+
+    .scroll {
+        bottom: -4%;
+    }
+
+    .experience-container {
+        height: 70vh; 
+        overflow-y: auto;
+    }
+    
+    .canvas-container,
+    .experience-overlay {
+        height: 50vh;
+    }
+
+    .explore-button {
+        bottom: -140px;
+        font-size: 15px;
+    }
+
+    .experience-scroll {
+        bottom: 300px;
+    }
+
+    .project-section {
+        height: 130%;
+    }
+
+    .project-description {
+        width: 300px;
+        margin-bottom: 2em;
+    }
+
+    .bottom-icons {
+        bottom: -1350px;
+    }
+
+    .credit {
+        left: 50%;
+        font-size: small;
+        bottom: -1420px;
+        width: 200px;
+    }
+
+    /* Pacman */
+    .custom-text {
+        bottom: 115px;
+        width: calc(100% - -270px);
+        font: size 10px;
+    }
+
+    .pac-title {
+        font-family: 'Press Start 2P', cursive;
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - -100px);
+        color: #E17C0B;
+    }
+
+    .github-link {
+        bottom: 275px;
+        left: 110px;
+
+    }
+
+}
+
