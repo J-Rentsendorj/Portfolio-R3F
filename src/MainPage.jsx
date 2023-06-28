@@ -44,11 +44,11 @@ function MainPage() {
         <ErrorBoundary>
             <div className="main-container">
                 <video id="background-video" loop autoPlay muted playsInline className="video-background">
-                    <source src="https://storage.cloud.google.com/inzo-bucket/Inzo_Overthinker.mp4" type="video/mp4" />
+                    <source src="https://storage.googleapis.com/portfolio-videos-bucket/Inzo_Overthinker.mp4" type="video/mp4" />
                 </video>
                 <div ref={overlayRef} className="overlay"></div>
                 <div className="top-icons">
-                    <a href="https://github.com/J-Rentsendorj?tab=repositories" target="GitHub" rel="https://github.com/J-Rentsendorj?tab=repositories">
+                    <a href="https://github.com/J-Rentsendorj/Portfolio-R3F" target="GitHub" rel="https://github.com/J-Rentsendorj/Portfolio-R3F">
                         <FaGithub size={32} />
                     </a>
                     <a href="https://www.linkedin.com/in/baljinnyam-rentsendorj/" target="In" rel="https://www.linkedin.com/in/baljinnyam-rentsendorj/">
@@ -105,7 +105,7 @@ function MainPage() {
                         Pac-Man game with an EDM twist. Mobile version is currently in development.</p>
                     <div className="video-container">
                         <video className="project-video" loop muted playsInline autoPlay>
-                            <source src="https://storage.cloud.google.com/pac-bucket/pac.mp4" type="video/mp4" />
+                            <source src="https://storage.googleapis.com/portfolio-videos-bucket/pac.mp4" type="video/mp4" />
                         </video>
                     </div>
                     <div className="bottom-icons">
