@@ -13,6 +13,7 @@ function MainPage() {
     const overlayRef = useRef(null);
     const [exploreClicked, setExploreClicked] = useState(false)
     const [orbitEnabled, setOrbitEnabled] = useState(false);
+    const videoRef = React.useRef(null);
 
     const toggleMute = () => {
         setIsMuted(!isMuted);
@@ -43,7 +44,20 @@ function MainPage() {
     return (
         <ErrorBoundary>
             <div className="main-container">
-                <video id="background-video" loop autoPlay muted playsInline className="video-background">
+                <video
+                    id="background-video"
+                    className="video-background"
+                    loop
+                    autoPlay
+                    muted
+                    playsInline
+                    ref={videoRef} // Add ref to video element
+                    onCanPlayThrough={() => { // Add event handler
+                        if (videoRef.current) {
+                            videoRef.current.play().catch(error => console.log(error));
+                        }
+                    }}
+                >
                     <source src="https://storage.googleapis.com/portfolio-videos-bucket/Inzo_Overthinker.mp4" type="video/mp4" />
                 </video>
                 <div ref={overlayRef} className="overlay"></div>
