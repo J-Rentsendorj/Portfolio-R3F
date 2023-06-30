@@ -1,6 +1,6 @@
 # **Portfolio - A Web 3D Experience**
 
-This portfolio project is a web-based interactive React Three Fiber application, showcasing my skills, projects, and interests. 
+This portfolio project is an interactive React Three Fiber application, showcasing my skills, projects, and interests. 
 It's built using various modern web technologies for optimal performance and user experience. The layout is fully responsive 
 and adaptable to various screen sizes, providing a seamless experience across different devices.
 
