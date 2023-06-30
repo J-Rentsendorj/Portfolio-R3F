@@ -4,7 +4,7 @@ This portfolio project is a web-based interactive React Three Fiber application,
 It's built using various modern web technologies for optimal performance and user experience. The layout is fully responsive 
 and adaptable to various screen sizes, providing a seamless experience across different devices.
 
-##Technologies Used:
+## Technologies Used:
 Here's a list of the main technologies used in this project:
 
 * React v18.2: A JavaScript library for building user interfaces.
@@ -17,6 +17,7 @@ Here's a list of the main technologies used in this project:
 * Leva v0.9.34: A lightweight and customizable GUI for React.
 * gltfjsx v6.1.4: A tool that converts glTF files into JSX components.
 * Three.js v0.148.0: A cross-browser JavaScript library/API used to create and display animated 3D computer graphics in a web browser.
+* Google Cloud for large file hosting.
 
 How To Use
 ### Getting Started
