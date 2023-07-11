@@ -1,8 +1,6 @@
 # **Portfolio - A Web 3D Experience**
 
-This portfolio project is an interactive React Three Fiber application, showcasing my skills, projects, and interests. 
-It's built using various modern web technologies for optimal performance and user experience. The layout is fully responsive 
-and adaptable to various screen sizes, providing a seamless experience across different devices.
+This portfolio project is an interactive React Three Fiber application, a versatile digital marketing portfolio prototype template that showcases individual skills and technologies. This adaptable template can be customized for personal branding or product promotion purposes. It's built using various modern web technologies for optimal performance and user experience. The layout is fully responsive and adaptable to various screen sizes, providing a seamless experience across different devices.
 
 ## Technologies Used:
 Here's a list of the main technologies used in this project:
