@@ -41,7 +41,7 @@ export default function Experience({ showOverlay, orbitEnabled, setOrbitEnabled 
             {!showOverlay &&
                 <Html center pointerEvents="auto">
                     <button onClick={exploreProject} className='explore-button'>
-                        {orbitEnabled ? 'Exit 3D View' : 'Explore Project'}
+                        {orbitEnabled ? 'Exit 3D View' : 'Enter 3D View'}
                     </button>
                 </Html>
             }
