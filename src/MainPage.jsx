@@ -96,7 +96,7 @@ function MainPage() {
                     <div className="text-content">
                         <h1>Jin Rentsendorj</h1>
                         <h1>
-                            Creative Developer
+                            UX/ UI Developer
                             U.S. Army Veteran
                             Let's Create Your Reality
                         </h1>
